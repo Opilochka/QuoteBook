@@ -1,0 +1,99 @@
+
+html {
+  margin-left: 6%;
+  margin-right: 6%;
+  
+}
+body {
+  background-image: url(/img/Texture\ 33.svg);
+  background-color: rgba(18, 41, 58, 1);
+  font-family: 'Cairo', sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.site-header {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(10, 8.2%);
+  grid-template-rows: repeat(1, 46px);
+  gap: 2%;
+}
+
+.SiteName {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+}
+
+.LinksMessage {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LightMode {
+  grid-column-start: 10;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.LinkCategory {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(10, 9.1%);
+  grid-template-rows: repeat(2, 300px);
+  row-gap: 10px;
+  column-gap: 1%;
+}
+
+.text {
+  background-color: aliceblue;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.LinkMusic {
+  background-color: rgba(0, 185, 217, 1);
+  border-radius: 30px;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.LinkBook {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+}
+
+.LinkGame {
+  background: rgba(122, 50, 188, 1);
+  border-radius: 30px;
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 1;
+}
+
+.LinkTeacher {
+  background: rgba(253, 174, 84, 1);
+  border-radius: 30px;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 2;
+}
+
+.LinkFilm {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 2;
+}
